@@ -2,11 +2,11 @@
 ////////////////////////////////////////////////////////////////
 
 // Typography
-$base-font-family:'Helvetica', sans-serif;
+$base-font-family:'Roboto', sans-serif;
 $secondary-font-family: $base-font-family;
 
 // Sizes
-$max-width: 1300px;
+$max-width: 1200px;
 $base-spacing: 2rem;
 $small-spacing: $base-spacing / 2;
 $large-spacing: $base-spacing * 2;
@@ -15,10 +15,14 @@ $large-spacing: $base-spacing * 2;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ccc;
-$green: #88B04B;
+$orange: #EE7E39;
+$light-orange: #FCAB54;
+$yellow: #F2E185;
+$green: #295D52;
+$dark-green: #033B46;
 
 // Font Colors
-$base-color: $green;
+$base-color: $orange;
 $base-font-color: $dark-gray;
 $secondary-font-color: #fff;
 

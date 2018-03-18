@@ -11,3 +11,12 @@
         -moz-osx-font-smoothing: auto;
     }
 }
+
+
+@mixin orange-gradient {
+  background-image: linear-gradient(to right, $light-orange, $orange);
+}
+
+@mixin green-gradient {
+  background-image: linear-gradient(to right, $green, $dark-green);
+}

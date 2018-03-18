@@ -2,6 +2,7 @@
 ////////////////////////////////////////////////////////////////
 
 body {
+  @include green-gradient;
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: 1em;
@@ -14,9 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $secondary-font-family;
-  line-height: 1.2;
   margin: 0 0 $small-spacing;
+  font-family: $secondary-font-family;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.2;
 }
 
 

@@ -14,5 +14,5 @@
 .l-section--secondary {
   @extend %section;
   @extend %inverse;
-  background: $secondary-background-color;
+  @include green-gradient;
 }
