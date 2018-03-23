@@ -1,0 +1,45 @@
+:root{
+  --callout-height: 180px;
+}
+
+.callout-container {
+  grid-column-gap: 0;
+}
+
+.callout {
+  grid-column: span 4;
+
+  &:nth-child(3) .callout__box {
+    border-right: solid $small-spacing #fff;
+  }
+}
+
+.callout__box {
+  height: var(--callout-height);
+  margin-bottom: $base-spacing;
+  border-left: solid $small-spacing #fff;
+  overflow: hidden;
+  transform:$base-skew;
+}
+
+.callout__box__image {
+  height: 100%;
+  width: 100%;
+  background: url("http://via.placeholder.com/700x500");
+  background-size: cover;
+  background-position: center center;
+  transform: $inverse-skew scale(1.2);
+}
+
+.callout__content {
+  padding-right: $base-spacing;
+}
+
+
+.callout-bg {
+  @include green-gradient;
+  position: absolute;
+  height: var(--callout-height);
+  width: 100%;
+
+}

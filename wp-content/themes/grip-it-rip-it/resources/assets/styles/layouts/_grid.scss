@@ -3,13 +3,33 @@
 
 .l-container {
   position: relative;
-  display: block;
+  display: grid;
+  width: 100%;
+  max-width: $max-width;
+  padding: 0 $base-spacing;
+  margin: auto;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: $base-spacing;
+}
+
+.l-container--flex {
+  position: relative;
+  display: flex;
   width: 100%;
   max-width: $max-width;
   padding: 0 $base-spacing;
   margin: auto;
   // grid-template-columns: repeat(12, 1fr);
   // grid-column-gap: $base-spacing;
+}
+
+.l-2-column {
+  column-count: 2;
+  column-gap: $base-spacing;
+}
+
+.l-pad {
+  padding-bottom: $base-spacing;
 }
 
 // Full width

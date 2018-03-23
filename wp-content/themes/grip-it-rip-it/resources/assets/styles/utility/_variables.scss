@@ -34,3 +34,7 @@ $secondary-background-color: $dark-gray;
 $base-border-color: $light-gray;
 $base-border-radius: 3px;
 $base-border: 1px solid $base-border-color;
+
+// skew
+$base-skew: skewX(-12deg);
+$inverse-skew: skewX(12deg);

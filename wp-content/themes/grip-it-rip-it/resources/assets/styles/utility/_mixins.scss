@@ -17,6 +17,14 @@
   background-image: linear-gradient(to right, $light-orange, $orange);
 }
 
+@mixin orange-hover-gradient {
+  background-image: linear-gradient(to right, darken($light-orange, 10), darken($orange, 10));
+}
+
 @mixin green-gradient {
   background-image: linear-gradient(to right, $green, $dark-green);
+}
+
+@mixin skew {
+  transform: skewX(-12deg);
 }

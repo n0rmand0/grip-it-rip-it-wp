@@ -14,7 +14,7 @@
 @import "base/lists";
 @import "base/media";
 @import "base/tables";
-@import "base/typography"; 
+@import "base/typography";
 
 // LAYOUT
 @import "layouts/footer";
@@ -24,6 +24,8 @@
 
 // MODULES
 @import "modules/global";
+@import "modules/hero";
+@import "modules/callout";
 
 // THEMES
 @import "themes/print";
