@@ -1,0 +1,52 @@
+// showcase;
+.showcase-container {
+  position: absolute;
+  bottom: -$large-spacing;
+  right: 0;
+  display: block;
+  width: 50%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.showcase {
+  position: relative;
+  right: -15%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  transform: $base-skew;
+}
+
+.showcase__box:first-child{
+  margin-left: 33%;
+}
+
+.showcase__box,
+.showcase__bg
+ {
+  @include green-gradient;
+  width: 33%;
+  height: 50%;
+  border-top: solid $small-spacing #fff;
+  border-left: solid $small-spacing #fff;
+  overflow: hidden;
+}
+
+.showcase__bg {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.showcase__image {
+  width: 100%;
+  height: 100%;
+  background: url("http://via.placeholder.com/500x300");
+  background-size: cover;
+  background-position: center center;
+  transform: $inverse-skew scale(1.2);
+}

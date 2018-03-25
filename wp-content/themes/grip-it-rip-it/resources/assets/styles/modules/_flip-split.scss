@@ -1,0 +1,24 @@
+.flip-split {
+  display: flex;
+  justify-content: space-between;
+  grid-column: span 12;
+
+  &:nth-child(even){
+    flex-direction: row-reverse;
+    margin-top: $base-spacing;
+    padding-top: $base-spacing;
+    border-top: $base-border;
+  }
+}
+
+.flip-split__content {
+  width: calc(60% - #{$base-spacing});
+  // flex-shrink: 0;
+  // flex-grow: 0;
+}
+
+.flip-split__image {
+  width: calc(40% - #{$base-spacing});
+  // flex-shrink: 0;
+  // flex-grow: 0;
+}
