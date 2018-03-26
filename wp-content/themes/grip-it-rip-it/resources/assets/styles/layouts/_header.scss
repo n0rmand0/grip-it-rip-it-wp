@@ -2,17 +2,23 @@
 ////////////////////////////////////////////////////////////////
 .site-header {
   position: absolute;
+  width: 100%;
   padding: $small-spacing 0;
+  background: rgba($dark-green, .8);
   z-index: 99;
 
   a {
     color: #fff;
+    font-weight: 100;
 
     &:hover {
       color: $light-orange;
     }
   }
 
+  .current-menu-item {
+    border-bottom: $base-border;
+  }
   .menu-item {
     margin-left: $small-spacing;
   }

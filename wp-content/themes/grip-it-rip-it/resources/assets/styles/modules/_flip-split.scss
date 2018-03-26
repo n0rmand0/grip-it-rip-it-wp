@@ -5,8 +5,8 @@
 
   &:nth-child(even){
     flex-direction: row-reverse;
-    margin-top: $base-spacing;
-    padding-top: $base-spacing;
+    margin-top: $large-spacing;
+    padding-top: $large-spacing;
     border-top: $base-border;
   }
 }

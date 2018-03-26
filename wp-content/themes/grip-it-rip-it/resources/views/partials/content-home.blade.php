@@ -2,11 +2,20 @@
 
 <div class="showcase-container">
   <div class="showcase">
-      <div class="showcase__box"><div class="showcase__image"></div></div>
+      <div class="showcase__box">
+        @php($image = get_field('showcase_image1') )
+        <div class="showcase__image" style="background-image: url({{$image['url']}})"></div>
+      </div>
       <div class="showcase__bg"></div>
 
-      <div class="showcase__box"><div class="showcase__image"></div></div>
-      <div class="showcase__box"><div class="showcase__image"></div></div>
+      <div class="showcase__box">
+        @php($image = get_field('showcase_image2') )
+        <div class="showcase__image" style="background-image: url({{$image['url']}})"></div>
+      </div>
+      <div class="showcase__box">
+        @php($image = get_field('showcase_image3') ) 
+        <div class="showcase__image" style="background-image: url({{$image['url']}})"></div>
+      </div>
       <div class="showcase__bg"></div>
   </div>
 </div>
@@ -26,30 +35,37 @@
   <div class="l-container callout-container">
     <div class="callout">
       <div class="callout__box">
-        @php($image = get_field('callout_1_image') )
+        @php($image = get_field('course_design_image') )
         <div class="callout__box__image" style="background-image: url({{$image['url']}})"></div>
       </div>
       <div class="callout__content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em></p>
+        <h3>Course Design</h3>
+        {{the_field('course_design_content')}}
+        <a href="/course-design" class="button">Learn more</a>
       </div>
     </div>
     <div class="callout">
       <div class="callout__box">
-        @php($image = get_field('callout_2_image') )
+        @php($image = get_field('events_image') )
         <div class="callout__box__image" style="background-image: url({{$image['url']}})"></div>
       </div>
       <div class="callout__content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em></p>
-      </div>
-    </div>
-    <div class="callout">
-      <div class="callout__box">
-        @php($image = get_field('callout_3_image') )
-        <div class="callout__box__image" style="background-image: url({{$image['url']}})"></div>
+        <h3>Events</h3>
+        {{the_field('events_content')}}
+        <a href="/events" class="button">Learn more</a>
 
       </div>
+    </div>
+    <div class="callout">
+      <div class="callout__box">
+        @php($image = get_field('instruction_image') )
+        <div class="callout__box__image" style="background-image: url({{$image['url']}})"></div>
+      </div>
       <div class="callout__content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em></p>
+        <h3>Instruction</h3>
+        {{the_field('instruction_content')}}
+        <a href="/instruction" class="button">Learn more</a>
+
       </div>
     </div>
   </div>

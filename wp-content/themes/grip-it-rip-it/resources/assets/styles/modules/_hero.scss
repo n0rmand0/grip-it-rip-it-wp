@@ -4,6 +4,8 @@
   // max-height: 100vh;
   height: 400px;
   z-index: 98;
+  background-size: cover;
+  background-position: center;
 
   &:after {
     content: '';
