@@ -1,0 +1,32 @@
+Arguments: 
+  /Users/ricky/.nvm/versions/node/v9.8.0/bin/node /Users/ricky/.nvm/versions/node/v9.8.0/bin/yarn build
+
+PATH: 
+  /Users/ricky/.nvm/versions/node/v9.8.0/bin:/Users/ricky/.rvm/gems/ruby-2.4.1/bin:/Users/ricky/.rvm/gems/ruby-2.4.1@global/bin:/Users/ricky/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ricky/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.8.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "/Users/ricky/Dev/grip-it-rip-it-wp"
+      at new MessageError (/Users/ricky/.nvm/versions/node/v9.8.0/lib/node_modules/yarn/lib/cli.js:186:110)
+      at /Users/ricky/.nvm/versions/node/v9.8.0/lib/node_modules/yarn/lib/cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (/Users/ricky/.nvm/versions/node/v9.8.0/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /Users/ricky/.nvm/versions/node/v9.8.0/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>

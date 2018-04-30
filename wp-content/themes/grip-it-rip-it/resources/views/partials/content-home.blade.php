@@ -1,5 +1,12 @@
 <header class="hero hero--tall">
 
+<div class="hero__slide hero__slide--3"></div>
+<div class="hero__slide hero__slide--2"></div>
+<div class="hero__slide hero__slide--1">
+  <img src="/wp-content/themes/grip-it-rip-it/resources/assets/images/logo.svg" alt="Grip It Rip It Logo" class="site-footer__logo">
+</div>
+
+
 <div class="showcase-container">
   <div class="showcase">
       <div class="showcase__box">
@@ -13,7 +20,7 @@
         <div class="showcase__image" style="background-image: url({{$image['url']}})"></div>
       </div>
       <div class="showcase__box">
-        @php($image = get_field('showcase_image3') ) 
+        @php($image = get_field('showcase_image3') )
         <div class="showcase__image" style="background-image: url({{$image['url']}})"></div>
       </div>
       <div class="showcase__bg"></div>

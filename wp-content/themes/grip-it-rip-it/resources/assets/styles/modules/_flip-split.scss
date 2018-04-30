@@ -2,12 +2,18 @@
   display: flex;
   justify-content: space-between;
   grid-column: span 12;
+  margin-top: $large-spacing;
+  padding-top: $large-spacing;
+  border-top: $base-border;
+
+  &:first-child{
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
 
   &:nth-child(even){
     flex-direction: row-reverse;
-    margin-top: $large-spacing;
-    padding-top: $large-spacing;
-    border-top: $base-border;
   }
 }
 
