@@ -8,19 +8,28 @@
   z-index: 99;
 
   a {
+    display: block;
     color: #fff;
     font-weight: 100;
 
     &:hover {
       color: $light-orange;
     }
+
+    img {
+      display: block;
+    }
+  }
+
+  .brand {
+    margin-right: $base-spacing;
   }
 
   .current-menu-item {
     border-bottom: $base-border;
   }
   .menu-item {
-    margin-left: $small-spacing;
+    margin-left: $base-spacing;
   }
 }
 

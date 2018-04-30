@@ -23,12 +23,14 @@
     "opera 12"
   ],
   "stylelint": {
-      "extends": "stylelint-config-standard",
-      "rules": {
-        "no-empty-source": null,
-        "max-empty-lines": 6
-      }
-    },
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "no-empty-source": null,
+      "max-empty-lines": 6,
+      "no-unused-vars": [0, {"vars": "all", "args": "after-used"}]
+
+    }
+  },
   "scripts": {
     "build": "webpack --progress --config resources/assets/build/webpack.config.js",
     "build:production": "webpack --progress -p --config resources/assets/build/webpack.config.js",

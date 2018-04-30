@@ -1,8 +1,8 @@
 <header class="hero hero--tall">
 
-<div class="hero__slide hero__slide--3"></div>
-<div class="hero__slide hero__slide--2"></div>
-<div class="hero__slide hero__slide--1">
+<div class="hero__slide hero__slide--3 is-active"></div>
+<div class="hero__slide hero__slide--2 is-active"></div>
+<div class="hero__slide hero__slide--1 is-active">
   <img src="/wp-content/themes/grip-it-rip-it/resources/assets/images/logo.svg" alt="Grip It Rip It Logo" class="site-footer__logo">
 </div>
 
