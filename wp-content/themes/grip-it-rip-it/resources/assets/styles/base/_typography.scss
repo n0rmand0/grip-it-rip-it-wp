@@ -30,6 +30,9 @@ h6 {
 
 h1 {
   font-size: 3.5em;
+  @include media($small){
+    font-size: 2em;
+  }
 }
 
 h2 {

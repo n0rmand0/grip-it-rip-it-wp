@@ -1,5 +1,9 @@
 :root{
   --callout-height: 180px;
+
+  @include media($small){
+    --callout-height: 250px;
+  }
 }
 
 .callout-container {
@@ -8,18 +12,31 @@
 
 .callout {
   grid-column: span 4;
+  @include media($small){
+    grid-column: span 12;
+    margin-bottom: $large-spacing;
+  }
 
   &:nth-child(3) .callout__box {
     border-right: solid $small-spacing #fff;
+    @include media($small){
+      border: none;
+    }
   }
 }
 
-.callout__box { 
+.callout__box {
   height: var(--callout-height);
   margin-bottom: $base-spacing;
   border-left: solid $small-spacing #fff;
   overflow: hidden;
   transform:$base-skew;
+
+  @include media($small){
+    margin-bottom: $small-spacing;
+    transform: none;
+    border: none;
+  }
 }
 
 .callout__box__image {
@@ -28,6 +45,10 @@
   background-size: cover;
   background-position: center center;
   transform: $inverse-skew scale(1.2);
+
+  @include media($small){
+    transform: none;
+  }
 }
 
 .callout__content {
@@ -40,5 +61,7 @@
   position: absolute;
   height: var(--callout-height);
   width: 100%;
-
+  @include media($small){
+    display: none;
+  }
 }

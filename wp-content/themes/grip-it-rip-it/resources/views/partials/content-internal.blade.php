@@ -1,9 +1,10 @@
 @php($image = get_field('hero_image') )
 <header class="hero" style="background-image: url({{$image['url']}})">
-  <div class="hero__title">
-    <h1>@php(the_title())</h1>
-  </div>
+
 </header>
+<div class="hero__title">
+  <h1>@php(the_title())</h1>
+</div>
 
 <div class="l-section">
 

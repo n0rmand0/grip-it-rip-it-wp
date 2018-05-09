@@ -3,10 +3,11 @@
 
 .l-container {
   position: relative;
-  display: grid;
+  display: block;
   width: 100%;
   max-width: $max-width;
   padding: 0 $base-spacing;
+  // padding: 0;
   margin: auto;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: $base-spacing;

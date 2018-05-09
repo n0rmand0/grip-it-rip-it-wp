@@ -6,14 +6,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @include media($nav-break){
+    flex-flow: column;
+  }
 }
 
 .site-footer a {
   color: #fff;
   font-style: italic;
   font-weight: 400;
+
+  @include media($nav-break){
+    width: 100%;
+    padding: $small-spacing 0;
+    text-align: center;
+    border-top: $base-border;
+
+    &:last-child {
+      border-bottom: $base-border;
+    }
+  }
 }
 
 .site-footer__logo {
   width: 200px;
+
+  @include media($nav-break){
+    order: 10;
+    margin-top: $base-spacing;
+  }
 }
