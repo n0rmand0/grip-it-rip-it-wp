@@ -95,6 +95,10 @@
     display: block;
     // height: 300px;
     width: 50vh;
+
+    @include media($small){
+      margin-top: -$large-spacing;
+    }
   }
 }
 

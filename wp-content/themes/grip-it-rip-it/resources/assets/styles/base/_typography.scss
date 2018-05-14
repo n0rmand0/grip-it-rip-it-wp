@@ -3,6 +3,7 @@
 
 body {
   @include green-gradient;
+  position: relative;
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: 1em;

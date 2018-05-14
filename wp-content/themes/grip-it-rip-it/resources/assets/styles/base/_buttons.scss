@@ -67,9 +67,14 @@
 ////////////////////////////////////////////////////////////////
 
 // Main Button
-button,
 .button {
   @extend %button-base;
+}
+
+button {
+  @extend %button-base;
+  background: $base-color;
+  font-size: 1.5em;
 }
 
 // Secondary Button

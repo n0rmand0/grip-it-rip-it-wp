@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/ricky/.nvm/versions/node/v9.8.0/bin/node /Users/ricky/.nvm/versions/node/v9.8.0/bin/yarn build
+  /Users/ricky/.nvm/versions/node/v9.8.0/bin/node /Users/ricky/.nvm/versions/node/v9.8.0/bin/yarn start
 
 PATH: 
   /Users/ricky/.nvm/versions/node/v9.8.0/bin:/Users/ricky/.rvm/gems/ruby-2.4.1/bin:/Users/ricky/.rvm/gems/ruby-2.4.1@global/bin:/Users/ricky/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ricky/.rvm/bin

@@ -24,6 +24,7 @@
   .brand {
     margin-right: $base-spacing;
     max-width: 60%;
+    width: 200px;
 
     @include media($nav-break){
       margin-right: 0;
@@ -52,6 +53,15 @@
 
 
 // navigation
+a.nav-primary-toggle {
+  position: absolute;
+  display: none;
+  right: $small-spacing;
+
+  @include  media($nav-break){
+    display: block;
+  }
+}
 
 .nav-primary{
 

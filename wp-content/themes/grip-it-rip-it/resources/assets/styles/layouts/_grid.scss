@@ -3,7 +3,7 @@
 
 .l-container {
   position: relative;
-  display: block;
+  display: grid;
   width: 100%;
   max-width: $max-width;
   padding: 0 $base-spacing;
@@ -11,6 +11,10 @@
   margin: auto;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: $base-spacing;
+
+  @include media($medium){
+    grid-column-gap: 0;
+  }
 }
 
 .l-container--flex {
@@ -27,10 +31,14 @@
 .l-2-column {
   column-count: 2;
   column-gap: $base-spacing;
+
+  @include media($small){
+    column-count: 1;
+  }
 }
 
 .l-pad {
-  padding-bottom: $base-spacing;
+  padding-bottom: $large-spacing;
 }
 
 // Full width

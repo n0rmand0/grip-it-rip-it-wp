@@ -9,6 +9,7 @@
 
   @include media($nav-break){
     flex-flow: column;
+    max-width: none;
   }
 }
 

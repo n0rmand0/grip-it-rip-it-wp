@@ -33,6 +33,7 @@ module.exports = {
   },
   "rules": {
     "no-console": process.env.NODE_ENV === 'production' ? 2 : 0,
+    "no-unused-vars": 0,
     "comma-dangle": [
       "error",
       {

@@ -1,0 +1,53 @@
+.contact-us {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(#000,.6);
+  z-index: 999;
+
+  &.is-active {
+    display: flex;
+  }
+}
+
+.contact-us__overlay {
+  position: relative;
+  flex: 0 0 80%;
+  margin: auto;
+  background: #fff;
+  padding: $base-spacing;
+}
+
+.contact-us__form {
+  input {
+    margin-bottom: .5em;
+  }
+  .wpforms-field {
+    margin-bottom: $small-spacing;
+  }
+
+  .wpforms-field-sublabel {
+    opacity: .8 ;
+    font-size: .8em;
+  }
+
+  .wpforms-field-row{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wpforms-one-half{
+    width: calc(50% - 1em);
+  }
+}
+
+.contact-us__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  cursor: pointer;
+}
