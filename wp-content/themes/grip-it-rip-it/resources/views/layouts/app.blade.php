@@ -18,7 +18,7 @@
 
     <div class="contact-us">
       <div class="contact-us__overlay">
-        <div class="contact-us__close">x</div>
+        <i class="fas fa-times contact-us__close"></i>
         <h2>Contact Us</h2>
         @php
           echo do_shortcode('[wpforms id="111" title="false" description="false"]');

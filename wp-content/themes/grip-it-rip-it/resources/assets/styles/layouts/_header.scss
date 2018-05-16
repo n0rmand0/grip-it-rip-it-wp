@@ -57,6 +57,7 @@ a.nav-primary-toggle {
   position: absolute;
   display: none;
   right: $small-spacing;
+  font-size: 2em;
 
   @include  media($nav-break){
     display: block;

@@ -1,7 +1,6 @@
 <footer class="site-footer l-section--secondary">
   <div id="footer-nav" class="site-footer-container">
     {{-- @php(dynamic_sidebar('sidebar-footer')) --}}
-
     <a href="/course-design">Course design</a>
     <a href="/events">Events</a>
 
@@ -10,5 +9,6 @@
 
     <a href="/instruction">Instruction</a>
     <a href="/about-us">About Us</a>
+    <a class="contact-us-button mobile-only">Contact Us</a>
   </div>
 </footer>

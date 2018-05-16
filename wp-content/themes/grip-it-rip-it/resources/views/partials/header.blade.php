@@ -8,6 +8,7 @@
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
       @endif
     </nav>
-    <a href="#footer-nav" class="nav-primary-toggle">Menu</a>
+
+    <a href="#footer-nav" class="nav-primary-toggle"><i class="fas fa-bars nav-primary-toggle"></i></a>
   </div>
 </header>
