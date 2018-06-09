@@ -103,7 +103,7 @@
 }
 
 .hero__slide--2{
-  background-image: url("../assets/images/hero2@2x.jpg");
+  background-image: url("../assets/images/hero2@2x.jpg"), url("../assets/images/hero2.jpg");
 
   @include media($medium){
     background-image: url("../assets/images/hero2.jpg");
@@ -111,7 +111,7 @@
 }
 
 .hero__slide--3{
-  background-image: url("../assets/images/hero3@2x.jpg");
+  background-image: url("../assets/images/hero3@2x.jpg"), url("../assets/images/hero3.jpg");
   @include media($medium){
     background-image: url("../assets/images/hero3.jpg");
   }

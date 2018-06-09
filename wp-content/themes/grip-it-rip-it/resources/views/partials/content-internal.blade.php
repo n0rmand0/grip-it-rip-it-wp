@@ -23,6 +23,8 @@
         <div class="flip-split__image">
           @php($image = get_sub_field('section_image') )
           <img src="{{$image['url']}}" alt="{{$image['alt']}}">
+          <p>{{$image['caption']}}</p>
+
         </div>
       </div>
 
