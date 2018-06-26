@@ -11,4 +11,7 @@
     <a href="/about-us">About Us</a>
     <a class="contact-us-button mobile-only">Contact Us</a>
   </div>
+  <small class="site-footer__copyright">
+    Copyright <?php echo date("Y"); ?> - Grip it & Rip it Disc Golf
+  </small>
 </footer>
